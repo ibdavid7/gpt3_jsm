@@ -6,13 +6,14 @@ import logo from '../../assets/logo.svg'
 // BEM -> Block Element Modifier
 
 const Menu = () => {
-    return (<>
-        <p><a href='#home'>Home</a></p>
-        <p><a href='#wgpt3'>What is GPT?</a></p>
-        <p><a href='#possibility'>Open AI</a></p>
-        <p><a href='#feagures'>Case Studies</a></p>
-        <p><a href='#blog'>Library</a></p>
-    </>
+    return (
+        <>
+            <p><a href='#home'>Home</a></p>
+            <p><a href='#wgpt3'>What is GPT?</a></p>
+            <p><a href='#possibility'>Open AI</a></p>
+            <p><a href='#feagures'>Case Studies</a></p>
+            <p><a href='#blog'>Library</a></p>
+        </>
     )
 }
 
@@ -28,11 +29,6 @@ const Navbar = () => {
                 </div>
                 <div className='gpt3__navbar-links_container'>
                     <Menu />
-                    <p><a href='#home'>Home</a></p>
-                    <p><a href='#wgpt3'>What is GPT?</a></p>
-                    <p><a href='#possibility'>Open AI</a></p>
-                    <p><a href='#feagures'>Case Studies</a></p>
-                    <p><a href='#blog'>Library</a></p>
                 </div>
             </div>
             <div className='gpt3__navbar-sign'>
