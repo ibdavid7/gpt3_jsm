@@ -10,7 +10,7 @@
     align-items: flex-start;
     flex-direction: column;
 
-    padding: 1rem 6rem ;
+    margin: 1rem 6rem ;
 }
 
 .gpt3__header-content h1 {
